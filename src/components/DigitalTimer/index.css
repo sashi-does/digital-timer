@@ -1,0 +1,123 @@
+.timer {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.digital-timer {
+  display: flex;
+  align-items: center;
+}
+
+.timer-section {
+  background-color: #fff;
+  height: 180px;
+  width: 180px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-left: 20px;
+}
+
+.timer-display {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  padding: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  font-size: 34px;
+  color: #00d9f5;
+  font-weight: 800;
+}
+
+.timer-state {
+  font-weight: 800;
+}
+
+.align-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-section {
+  display: flex;
+  align-items: center;
+  min-width: 120px;
+}
+
+.start-stop-btn {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-icon {
+  height: 40px;
+  width: 40px;
+  margin-right: 8px;
+}
+
+.set-timer-context {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.set-timer {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.set-timer-section {
+  display: flex;
+  align-items: center;
+}
+
+.set-time-display {
+  background-image: linear-gradient(to right, #0fffaa, #16eee6);
+  padding: 10px 30px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.inc-dec-btn {
+  font-size: 34px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+  margin: 6px 10px;
+  margin-bottom: 0px;
+}
+
+@media all and (max-width: 767px) {
+  .digital-timer {
+    flex-direction: column;
+    height: auto;
+  }
+  .timer {
+    padding: 30px;
+  }
+  .timer-display {
+    padding: 100px;
+  }
+}
